@@ -24,7 +24,7 @@ Route::post('/admin', [AdminController::class, 'login'])
 Route::middleware('admin')->group(function (){
     
     Route::get('/dashboard', [AdminController::class, 'create'])
-    ->name("admin");
+    ->name("dashboard");
     
     Route::post('/create/post', [AdminController::class, 'store'])
     ->name("post.store");
