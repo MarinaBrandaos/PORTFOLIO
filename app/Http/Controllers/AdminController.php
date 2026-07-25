@@ -105,7 +105,7 @@ class AdminController extends Controller
 
         $post->save();
 
-        return redirect()->route('admin');
+        return redirect()->route('dashboard');
     }
 
     /**
@@ -119,6 +119,6 @@ class AdminController extends Controller
 
         $post->delete();
 
-        return redirect()->route('admin');
+        return redirect()->route('dashboard');
     }
 }
