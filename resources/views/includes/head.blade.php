@@ -9,5 +9,6 @@
     <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
     <link rel="stylesheet" href="{{ asset('css/about.css') }}">
     <title>Marina Brandão Silva</title>
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
     <script src="https://kit.fontawesome.com/16680d0977.js" crossorigin="anonymous"></script>
 </head>
