@@ -6,8 +6,7 @@
 
     width: auto;
     height: auto;
-    padding: 300px;
-    padding-top: 150px;
+    padding: 200px;
 }
 
 .divA{
@@ -43,7 +42,7 @@
 
 @media (max-width: 768px) {
     .About{
-        flex-direction: column;
+        flex-direction: row;
         padding: 50px;
         padding-top: 100px;
     }
@@ -56,15 +55,28 @@
 }
 @media (max-width: 425px) {
     .About{
-        flex-direction: column;
-        padding: 30px;
+        flex-direction: row;
+        padding: 50px;
         padding-top: 80px;
     }
     .divA h1{
         font-size: 40px;
     }
     .divA p{
-        font-size: 12px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .About{
+        flex-direction: row;
+        padding: 30px;
+        padding-top: 80px;
+    }
+    .divA h1{
+        font-size: 30px;
+    }
+    .divA p{
+        font-size: 8px;
     }
 }
 
@@ -78,6 +90,7 @@
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .img img{
     width: 100%;
@@ -92,21 +105,37 @@
 }
 
 @media (max-width: 768px) {
-    .img img{
+    .img{
         width: 100%;
         height: 100%;
         box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    .img img{
+        width: 100%;
+        height: 60%;
+        box-sizing: border-box;
         object-fit: cover;
-        border-radius:50px;
+        border-radius:100px;
     }
 }
 
 @media (max-width: 425px) {
+    .img{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
     .img img{
         width: 100%;
         height: 100%;
         box-sizing: border-box;
         object-fit: cover;
-        border-radius:30px;
+        border-radius:100px;
     }
 }
