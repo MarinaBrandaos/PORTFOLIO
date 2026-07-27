@@ -31,13 +31,13 @@
 }
 @media (max-width: 425px) {
     .container {
-        padding: 50px;
+        padding: 30px;
         padding-top: 150px;
     }
 }  
 @media (max-width: 375px) {
     .container {
-        padding: 30px;
+        padding: 20px;
         padding-top: 100px;
     }
 } 
@@ -169,7 +169,7 @@
     }
     .main h2 {
         display: flex;
-        font-size: 16px;
+        font-size: 13px;
         align-items: left;
         
     }
