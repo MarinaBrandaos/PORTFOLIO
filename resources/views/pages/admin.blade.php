@@ -22,9 +22,9 @@
             @csrf
             <input type="text" name="title" placeholder="Title" required>
             <input type="text" name="description" placeholder="description" required>
-            <input type="text" name="category" placeholder="Category">
+            <input type="text" name="category" placeholder="Category" required>
             <input type="text" name="data" placeholder="data" required>
-            <input type="file" name="image" placeholder="Image" accept="image/png/jpeg">
+            <input type="file" name="image" placeholder="Image" accept="image/png/jpeg/mp4">
             <button type="submit">Create Post</button>
         </form>
     </div>
@@ -32,8 +32,8 @@
             <ul>
                 @foreach($posts as $post)
                 <li>
-                    <a href=" {{$post->description}}"> {{$post->title }}</a>
-                    <p>{{ $post->category }}</p>
+                    <a href=" {{$post->category}}"> {{$post->title }}</a>
+                    <p>{{ $post->description }}</p>
                     <p class="date">{{ $post->date }}</p>
                     <img src="{{ asset('storage/' . $post->image) }}" alt="Imagem do Post">
                     <a href="{{route('post.form', $post->id)}}">Edit</a>

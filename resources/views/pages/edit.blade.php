@@ -34,7 +34,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="image">Image</label>
-                                <input type="file" class="form-control" id="image" name="image" accept="image/png/jpeg" required>{{ $post->image }}</input>
+                                <input type="file" class="form-control" id="image" name="image" accept="image/png/jpeg">{{ $post->image }}</input>
                             </div>
                             <button type="submit" class="btn btn-primary">Update Post</button>
                         </form>

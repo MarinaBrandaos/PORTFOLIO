@@ -43,8 +43,8 @@
             <ul>
                 @foreach($post as $post)
                 <li>
-                    <a href=" {{$post->description}}"> {{$post->title }}</a>
-                    <p>{{ $post->category }}</p>
+                    <a href=" {{$post->category}}"> {{$post->title }}</a>
+                    <p>{{ $post->description }}</p>
                     <p class="date">{{ $post->date }}</p>
                     <img src="{{ asset('storage/' . $post->image) }}" alt="Imagem do Post">
                 </li>
