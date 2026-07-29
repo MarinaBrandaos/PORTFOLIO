@@ -377,7 +377,7 @@
 
 .posts li p{
     display: flex;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 200;
     gap: 10px;
 }
