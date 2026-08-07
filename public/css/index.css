@@ -478,3 +478,156 @@
     }
 
 }
+
+.cta-orcamento {
+    background: #141414;
+    padding: 48px 24px;
+    border-radius: 14px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.cta-tag {
+    color: #fff;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 12px;
+}
+
+.cta-orcamento h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.cta-texto {
+    color: #bbb;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.cta-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-primario {
+    background: #7F77DD;
+    color: #fff;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-secundario {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+@media (min-width: 481px) {
+    .cta-orcamento {
+        padding: 48px 32px;
+        margin: 40px auto;
+    }
+
+    .cta-orcamento h2 {
+        font-size: 24px;
+    }
+
+    .cta-texto {
+        font-size: 15px;
+    }
+
+    .cta-botoes {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .btn-primario,
+    .btn-secundario {
+        flex: 0 1 auto;
+        padding: 14px 28px;
+    }
+}
+
+/* Desktop - a partir de 768px */
+@media (min-width: 768px) {
+    .cta-orcamento {
+        padding: 64px 48px;
+        max-width: 700px;
+    }
+
+    .cta-orcamento h2 {
+        font-size: 28px;
+    }
+
+    .cta-texto {
+        font-size: 16px;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 999;
+}
+/* Mobile - botão um pouco menor pra não ocupar espaço demais */
+.whatsapp-float {
+    width: 50px;
+    height: 50px;
+    bottom: 16px;
+    right: 16px;
+}
+
+.whatsapp-float img {
+    width: 24px;
+}
+
+/* Tablet e desktop - botão no tamanho normal */
+@media (min-width: 481px) {
+    .whatsapp-float {
+        width: 56px;
+        height: 56px;
+        bottom: 24px;
+        right: 24px;
+    }
+
+    .whatsapp-float img {
+        width: 28px;
+    }
+}
+
+/* Telas grandes - leve efeito hover, já que tem mouse */
+@media (min-width: 1024px) {
+    .whatsapp-float {
+        transition: transform 0.2s ease;
+    }
+
+    .whatsapp-float:hover {
+        transform: scale(1.1);
+    }
+}

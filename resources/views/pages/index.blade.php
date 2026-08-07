@@ -31,6 +31,19 @@
             <li><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-at"></i></a></li>
         </ul>
     </div>
+
+<div class="cta-orcamento">
+    <p class="cta-tag">Disponível para novos projetos</p>
+    <h2>Tem uma ideia? Eu coloco no ar.</h2>
+    <p class="cta-texto">
+        Sites rápidos, funcionais e feitos sob medida para o seu negócio.
+        Vamos conversar sobre o seu projeto?
+    </p>
+    <div class="cta-botoes">
+        <a href="https://wa.me/5575991150851?text=Olá! Vi seu portfólio e quero saber mais sobre um orçamento" class="btn-primario">Solicitar orçamento</a>
+        <a href="#projetos" class="btn-secundario">Ver projetos</a>
+    </div>
+</div>
     
     
     <div class="projects">
