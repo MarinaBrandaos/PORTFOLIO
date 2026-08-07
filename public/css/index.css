@@ -479,7 +479,10 @@
 
 }
 
+
+/** CTA **/
 .cta-orcamento {
+    display: flex;
     background: #141414;
     padding: 48px 24px;
     border-radius: 14px;
@@ -582,6 +585,7 @@
 }
 
 .whatsapp-float {
+    display: flex;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -589,7 +593,6 @@
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
